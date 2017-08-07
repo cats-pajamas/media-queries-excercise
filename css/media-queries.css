@@ -1,0 +1,14 @@
+/* for mobile screen */
+
+@media screen and (min-width: 400px) {
+
+}
+
+/* for desktop screen */
+
+@media screen and (min-width: 960px) {
+    .nav-links {
+        display: inline;
+        ;
+    }
+}
