@@ -11,7 +11,7 @@ body{
 
 /* for desktop screen */
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 900px) {
     .hidden-on-mobile{
         display: none;
     }
@@ -26,21 +26,24 @@ body{
         float: right;
         list-style-type: none;
         clear: right;
-        vertical-align: bottom;
+        /*vertical-align: bottom;*/
     }
 
     .nav-links li {
         display: inline;
         margin: auto 10px;
-        vertical-align: bottom;
+        /*vertical-align: bottom;*/
     }
     .header-img{
-        text-align: center;
+        /*text-align: center;*/
+        /*display: block;*/
+        /*margin:  auto;*/
     }
     .header-img>img{
         width: 890px;
         height: 385px;
         clear: both;
+        display: block;
         margin: auto;
     }
     .main{
@@ -54,6 +57,8 @@ body{
     }
     footer{
         clear: left;
+        /*position: relative;*/
+        /*position: bottom left;*/
 
     }
 }
