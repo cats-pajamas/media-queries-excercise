@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
 }
-/* for mobile screen */
+ /*for mobile screen */
 
 @media screen and (min-width: 400px) {
 
@@ -13,21 +13,30 @@ body{
     .hidden-on-mobile{
         display: none;
     }
+
+    h1{
+        float: left;
+        margin: 0;
+    }
+
     .nav-links {
-        display: inline;
+        /*display: inline;*/
         float: right;
         list-style-type: none;
+        clear: right;
+        vertical-align: bottom;
+
+
     }
 
     .nav-links li {
         display: inline;
-        margin: 10px;
+        margin: auto 10px;
+        vertical-align: bottom;
     }
 
-    h1{
-        float: left;
-    }
     .header-img{
         clear: both;
+
     }
 }
