@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    width: 90%;
+    margin: 0 auto;
 }
  /*for mobile screen */
 
@@ -25,8 +27,6 @@ body{
         list-style-type: none;
         clear: right;
         vertical-align: bottom;
-
-
     }
 
     .nav-links li {
@@ -34,9 +34,26 @@ body{
         margin: auto 10px;
         vertical-align: bottom;
     }
-
     .header-img{
+        text-align: center;
+    }
+    .header-img>img{
+        width: 890px;
+        height: 385px;
         clear: both;
+        margin: auto;
+    }
+    .main{
+        float: left;
+        width:60%;
+    }
+    .sub-section{
+        float: left;
+        width: 35%;
+        font-style: italic;
+    }
+    footer{
+        clear: left;
 
     }
 }
