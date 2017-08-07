@@ -12,6 +12,9 @@ body{
 /* for desktop screen */
 
 @media screen and (min-width: 900px) {
+    body{
+        margin: 30px auto;
+    }
     .hidden-on-mobile{
         display: none;
     }
@@ -35,6 +38,7 @@ body{
         /*vertical-align: bottom;*/
     }
     .header-img{
+        margin-top: 20px;
         /*text-align: center;*/
         /*display: block;*/
         /*margin:  auto;*/
@@ -58,7 +62,8 @@ body{
     footer{
         clear: left;
         /*position: relative;*/
-        /*position: bottom left;*/
+        /*position: absolute;*/
+        /*bottom: auto;*/
 
     }
 }
