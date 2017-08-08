@@ -50,16 +50,16 @@ body{
         margin: 10px auto;
         background-color: #ccc;
     }
-    /*.nav-links a{*/
-        /*padding: 10px;*/
-        /*background-color: #ccc;*/
-    /*}*/
-    /*.header-img>img{*/
-        /*width: 339px;*/
-        /*height: 224px;*/
-        /*display: block;*/
-        /*margin: auto;*/
-    /*}*/
+    .nav-links a{
+        padding: 10px;
+        background-color: #ccc;
+    }
+    .header-img>img{
+        width: 339px;
+        height: 224px;
+        display: block;
+        margin: auto;
+    }
 }
 
 /* for desktop screen */
@@ -87,13 +87,17 @@ body{
     }
 
     .nav-links li {
+        padding: 0px;
+        background-color: transparent;
         display: inline;
         margin: auto 10px;
+        margin-right: 0px;
         /*vertical-align: bottom;*/
     }
 
     .nav-links a {
         background-color: transparent;
+        padding: 0px;
 
     }
     .header-img{
