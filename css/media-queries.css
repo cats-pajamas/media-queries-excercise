@@ -41,35 +41,32 @@ body{
         padding:0;
     }
     .nav-links li{
+        width: 339px;
         list-style-type: none;
         line-height: 18px;
         padding: 15px 100px;
         box-sizing: border-box;
-        /*float: left;*/
-        background-color: #ccc;
-        width: 339px;
         display: block;
         margin: 10px auto;
-    }
-    .nav-links a{
-        padding: 10px;
         background-color: #ccc;
     }
-    .header-img>img{
-        width: 339px;
-        height: 224px;
-        display: block;
-        margin: auto;
-    }
-
-
+    /*.nav-links a{*/
+        /*padding: 10px;*/
+        /*background-color: #ccc;*/
+    /*}*/
+    /*.header-img>img{*/
+        /*width: 339px;*/
+        /*height: 224px;*/
+        /*display: block;*/
+        /*margin: auto;*/
+    /*}*/
 }
 
 /* for desktop screen */
 
 @media screen and (min-width: 900px) {
     body{
-        /*width: 90%;*/
+        width: 90%;
         margin: 30px auto;
     }
     .hidden-on-mobile{
@@ -79,6 +76,7 @@ body{
     h1{
         float: left;
         margin: 0;
+        font-size: 200%;
     }
 
     .nav-links {
@@ -86,8 +84,6 @@ body{
         float: right;
         list-style-type: none;
         clear: right;
-
-        /*vertical-align: bottom;*/
     }
 
     .nav-links li {
