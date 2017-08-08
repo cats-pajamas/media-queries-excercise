@@ -6,17 +6,25 @@ body{
  /*for mobile screen */
 
 @media screen and (min-width: 360px) {
+    body{
+        /*width: 90%;*/
+        width: 339px;
+        display: block;
+        margin: auto;
+    }
     .hidden-on-mobile{
         background-color: #CCFFFF;
         width: 339px;
         height: 30px;
         border: 2px solid #ccc;
-        margin-top: 12px;
+        /*margin-top: 12px;*/
         padding-top: 15px;
         font-size: 80%;
         vertical-align: top;
         color: #CCC;
         text-decoration: none;
+        display: block;
+        margin: auto;
     }
     .hidden-on-mobile a{
         color: #000;
@@ -30,22 +38,18 @@ body{
     }
     .nav-links{
         list-style-type: none;
-
-
+        padding:0;
     }
     .nav-links li{
         list-style-type: none;
         line-height: 18px;
         padding: 15px 100px;
-        margin-bottom: 10px;
-        margin-left: 0px;
         box-sizing: border-box;
         /*float: left;*/
         background-color: #ccc;
-    }
-    .nav-links ul{
-        padding-left: 0px;
-
+        width: 339px;
+        display: block;
+        margin: 10px auto;
     }
     .nav-links a{
         padding: 10px;
@@ -57,12 +61,7 @@ body{
         display: block;
         margin: auto;
     }
-    body{
-        width: 90%;
-        display: block;
-        margin: auto;
-        /*text-align: center;*/
-    }
+
 
 }
 
