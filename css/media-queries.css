@@ -6,10 +6,57 @@ body{
  /*for mobile screen */
 
 @media screen and (min-width: 360px) {
+    .hidden-on-mobile{
+        background-color: #CCFFFF;
+        width: 339px;
+        height: 30px;
+        border: 2px solid #ccc;
+        margin-top: 12px;
+        padding-top: 15px;
+        font-size: 80%;
+        vertical-align: top;
+        color: #CCC;
+        text-decoration: none;
+    }
+    .hidden-on-mobile a{
+        color: #000;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 250%;
+    }
+    h1, .hidden-on-mobile, nav{
+        text-align: center;
+    }
+    .nav-links{
+        list-style-type: none;
+
+    }
+    .nav-links li{
+        list-style-type: none;
+        line-height: 18px;
+        height: 40px;
+        /*background-color: #ccc;*/
+    }
+    .nav-links ul li{
+        width: 150px;
+    }
+    .nav-links a{
+        padding: 10px;
+        height: 30px;
+        background-color: #ccc;
+    }
     .header-img>img{
         width: 339px;
         height: 224px;
-
+        display: block;
+        margin: auto;
+    }
+    body{
+        width: 90%;
+        display: block;
+        margin: auto;
+        /*text-align: center;*/
     }
 
 }
